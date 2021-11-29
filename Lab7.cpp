@@ -65,7 +65,7 @@ void gameOver ( ARRAY ocean , bool &game , int &losses , int &wins ) ;
 
 /*
 					=============================================
-												 BEGINNING OF MAIN
+							BEGINNING OF MAIN
 					=============================================
 */
 int main(int argc, char **argv)
@@ -108,7 +108,7 @@ int main(int argc, char **argv)
 }
 /*
 					=============================================
-														   END OF MAIN
+							  END OF MAIN
 					=============================================
 */
 
@@ -736,6 +736,7 @@ void header ( bool &again ) {
 	// Displaying banner
 	cout << "\n\n\n\n\n\n" ;
 	for ( v = 0 ; v < 8 ; v++ ) {
+		cout << endl ;
 		for ( h = 0 ; h < 80 ; h++) {
 			cout << welcomeMessage [ v ] [ h ] ;
 		}
